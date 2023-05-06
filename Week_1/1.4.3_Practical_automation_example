@@ -1,1 +1,14 @@
+```bash
+sudo apt install python3-psutil
+```
 
+```python
+python3
+
+import shutil
+du = shutil.disk_usage("/"
+print(du)
+du.free / du.total * 100
+
+import psutil
+```
